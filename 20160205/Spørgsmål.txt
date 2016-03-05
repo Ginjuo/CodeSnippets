@@ -1,0 +1,3 @@
+1.1 Hvorfor er klassen validate og print constant? Skal det skrives i UML?
+
+1.3 Hvad betyder den lige linje mellem main og vehicle?
