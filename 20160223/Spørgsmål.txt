@@ -1,2 +1,0 @@
-Hvorfor skal globale members være static?
-Hvad er en this pointer?
