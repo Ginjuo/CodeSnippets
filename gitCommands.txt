@@ -1,0 +1,3 @@
+Merge changes in br_A into br_B
+$ git checkout br_B
+$ git merge origin/br_A
