@@ -1,3 +1,3 @@
-# Private
+# CodeSnippets
 
-Test
+Kode jeg ofte bruger
