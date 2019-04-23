@@ -1,4 +1,4 @@
-latex_report.pdf
+*.pdf
 
 ## Core latex/pdflatex auxiliary files:
 *.aux

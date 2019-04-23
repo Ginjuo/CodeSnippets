@@ -1,0 +1,30 @@
+\documentclass{article}
+
+% Tabeller
+\usepackage[tableposition=top]{caption}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{makecell}
+	\setcellgapes{2pt} % Bestemmer luften imellem tabeller når \makegapedcells kaldes
+
+\begin{document}
+	
+\begin{table}
+	\makegapedcells
+	\begin{center}
+		\begin{tabularx}{\textwidth}{|*6{>{\centering\arraybackslash}X|}}
+			\cline{1-6}
+			\textbf{Tap No} & \textbf{Delay \boldmath[$\mu s$]} & \textbf{Power (lin)} & \textbf{Power [dB]} & \textbf{Doppler category} & \boldmath{$S_D$ [$\mu s$]} \\ \cline{1-6}
+			1 & 0   & 1    &   0 & RICE  & \multirow{6}{*}{0.1} \\ \cline{1-5} 
+			2 & 0.1 & 0.4  &  -4 & CLASS & \\ \cline{1-5} 
+			3 & 0.2 & 0.16 &  -8 & CLASS & \\ \cline{1-5} 
+			4 & 0.3 & 0.06 & -12 & CLASS & \\ \cline{1-5} 
+			5 & 0.4 & 0.03 & -16 & CLASS & \\ \cline{1-5} 
+			6 & 0.5 & 0.01 & -20 & CLASS & \\ \cline{1-6}
+		\end{tabularx}
+	\end{center}
+	\caption{Tap settings for typical case of a rural area in COST 207.}
+	\label{tab:cost207_taps}
+\end{table}
+
+\end{document}
