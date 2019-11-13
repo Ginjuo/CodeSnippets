@@ -1,0 +1,6 @@
+Use pipreqs - pipreqs used to generate requirements.txt file for any project based on imports
+https://github.com/bndr/pipreqs
+
+$ pip install pipreqs
+
+$ pipreqs /path/to/project
