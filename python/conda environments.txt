@@ -1,0 +1,11 @@
+To copy your anaconda environment from one machine to another, open anaconda prompt and write:
+conda env export --no-builds > environment.yml
+
+Copy the file to the receiving machine, and write:
+conda env create -f environment.yml
+
+You can reinstall an environment with the following (in case an error occured in the first run):
+conda env update -f environment.yml
+
+But I recommend deleting the environment and creating the environment from scratch
+conda env remove --name myEnvironment
